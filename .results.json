@@ -1,0 +1,1460 @@
+{
+  "sha256:445ce6208c98a24bd7511c70d7af2a85e5629f2a2d9b090813386959dda5c6cc": {
+    "my_vulns": [
+      {
+        "cve_desc": "The xdr_bytes and xdr_string functions in the GNU C Library (aka glibc or libc6) 2.25 mishandle failures of buffer deserialization, which allows remote attackers to cause a denial of service (virtual memory allocation, or memory consumption if an overcommit setting is not used) via a crafted UDP packet to port 111, a related issue to CVE-2017-8779.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-8804",
+        "cve_name": "CVE-2017-8804",
+        "cve_severity_nr": 3,
+        "installed_version": "2.26-0ubuntu2.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "glibc"
+      },
+      {
+        "cve_desc": "An integer overflow in the implementation of the posix_memalign in memalign functions in the GNU C Library (aka glibc or libc6) 2.26 and earlier could cause these functions to return a pointer to a heap area that is too small, potentially leading to heap corruption.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-6485",
+        "cve_name": "CVE-2018-6485",
+        "cve_severity_nr": 3,
+        "installed_version": "2.26-0ubuntu2.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "glibc"
+      },
+      {
+        "cve_desc": "The malloc implementation in the GNU C Library (aka glibc or libc6), from version 2.24 to 2.26 on powerpc, and only in version 2.26 on i386, did not properly handle malloc calls with arguments close to SIZE_MAX and could return a pointer to a heap region that is smaller than requested, eventually leading to heap corruption.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-6551",
+        "cve_name": "CVE-2018-6551",
+        "cve_severity_nr": 3,
+        "installed_version": "2.26-0ubuntu2.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "glibc"
+      },
+      {
+        "cve_desc": "An issue was discovered in certain Apple products. iOS before 10.3.2 is affected. macOS before 10.12.5 is affected. tvOS before 10.2.1 is affected. watchOS before 3.2.2 is affected. The issue involves the \"SQLite\" component. It allows remote attackers to execute arbitrary code or cause a denial of service (buffer overflow and application crash) via a crafted SQL statement.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-2520",
+        "cve_name": "CVE-2017-2520",
+        "cve_severity_nr": 3,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "An issue was discovered in certain Apple products. iOS before 10.3.2 is affected. macOS before 10.12.5 is affected. tvOS before 10.2.1 is affected. watchOS before 3.2.2 is affected. The issue involves the \"SQLite\" component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted SQL statement.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-2519",
+        "cve_name": "CVE-2017-2519",
+        "cve_severity_nr": 3,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "The dump_callback function in SQLite 3.20.0 allows remote attackers to cause a denial of service (EXC_BAD_ACCESS and application crash) via a crafted file.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13685",
+        "cve_name": "CVE-2017-13685",
+        "cve_severity_nr": 3,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "Pointer disclosure in SQLite",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-7000",
+        "cve_name": "CVE-2017-7000",
+        "cve_severity_nr": 3,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "An issue was discovered in certain Apple products. iOS before 10.3.2 is affected. macOS before 10.12.5 is affected. The issue involves the \"SQLite\" component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted web site.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-6991",
+        "cve_name": "CVE-2017-6991",
+        "cve_severity_nr": 3,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "An issue was discovered in certain Apple products. iOS before 10.3.2 is affected. macOS before 10.12.5 is affected. The issue involves the \"SQLite\" component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted web site.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-6983",
+        "cve_name": "CVE-2017-6983",
+        "cve_severity_nr": 3,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "An issue was discovered in certain Apple products. iOS before 10.3.2 is affected. macOS before 10.12.5 is affected. tvOS before 10.2.1 is affected. watchOS before 3.2.2 is affected. The issue involves the \"SQLite\" component. A use-after-free vulnerability allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via a crafted SQL statement.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-2513",
+        "cve_name": "CVE-2017-2513",
+        "cve_severity_nr": 3,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "sensible-browser in sensible-utils before 0.0.11 does not validate strings before launching the program specified by the BROWSER environment variable, which allows remote attackers to conduct argument-injection attacks via a crafted URL, as demonstrated by a --proxy-pac-file argument.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-17512",
+        "cve_name": "CVE-2017-17512",
+        "cve_severity_nr": 3,
+        "installed_version": "0.0.10",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sensible-utils"
+      },
+      {
+        "cve_desc": "An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the third-party \"PCRE\" product. Versions before 8.40 allow remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13846",
+        "cve_name": "CVE-2017-13846",
+        "cve_severity_nr": 3,
+        "installed_version": "2:8.39-5ubuntu3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "pcre3"
+      },
+      {
+        "cve_desc": "An issue was discovered in the _asn1_decode_simple_ber function in decoding.c in GNU Libtasn1 before 4.13. Unlimited recursion in the BER decoder leads to stack exhaustion and DoS.",
+        "cve_fixed_version": "4.12-2.1ubuntu0.1",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-6003",
+        "cve_name": "CVE-2018-6003",
+        "cve_severity_nr": 3,
+        "installed_version": "4.12-2.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "libtasn1-6"
+      },
+      {
+        "cve_desc": "The pop_fail_stack function in the GNU C Library (aka glibc or libc6) allows context-dependent attackers to cause a denial of service (assertion failure and application crash) via vectors related to extended regular expression processing.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2015-8985",
+        "cve_name": "CVE-2015-8985",
+        "cve_severity_nr": 2,
+        "installed_version": "2.26-0ubuntu2.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "glibc"
+      },
+      {
+        "cve_desc": "res_query in libresolv in glibc before 2.25 allows remote attackers to cause a denial of service (NULL pointer dereference and process crash).",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2015-5180",
+        "cve_name": "CVE-2015-5180",
+        "cve_severity_nr": 2,
+        "installed_version": "2.26-0ubuntu2.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "glibc"
+      },
+      {
+        "cve_desc": "chroot in GNU coreutils, when used with --userspec, allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal's input buffer.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-2781",
+        "cve_name": "CVE-2016-2781",
+        "cve_severity_nr": 2,
+        "installed_version": "8.26-3ubuntu4",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "coreutils"
+      },
+      {
+        "cve_desc": "An issue was discovered in certain Apple products. iOS before 10.3.2 is affected. macOS before 10.12.5 is affected. tvOS before 10.2.1 is affected. watchOS before 3.2.2 is affected. The issue involves the \"SQLite\" component. It allows remote attackers to execute arbitrary code or cause a denial of service (buffer overflow and application crash) via a crafted SQL statement.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-2518",
+        "cve_name": "CVE-2017-2518",
+        "cve_severity_nr": 2,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "runuser in util-linux allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal's input buffer.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-2779",
+        "cve_name": "CVE-2016-2779",
+        "cve_severity_nr": 2,
+        "installed_version": "2.30.1-0ubuntu4",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "util-linux"
+      },
+      {
+        "cve_desc": "The parse_dos_extended function in partitions/dos.c in the libblkid library in util-linux allows physically proximate attackers to cause a denial of service (memory consumption) via a crafted MSDOS partition table with an extended partition boot record at zero offset.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-5011",
+        "cve_name": "CVE-2016-5011",
+        "cve_severity_nr": 2,
+        "installed_version": "2.30.1-0ubuntu4",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "util-linux"
+      },
+      {
+        "cve_desc": "Use-after-free vulnerability in bzip2recover in bzip2 1.0.6 allows remote attackers to cause a denial of service (crash) via a crafted bzip2 file, related to block ends set to before the start of the block.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-3189",
+        "cve_name": "CVE-2016-3189",
+        "cve_severity_nr": 2,
+        "installed_version": "1.0.6-8.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "bzip2"
+      },
+      {
+        "cve_desc": "TOCTOU race conditions by copying and removing directory trees",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2013-4235",
+        "cve_name": "CVE-2013-4235",
+        "cve_severity_nr": 2,
+        "installed_version": "1:4.2-3.2ubuntu4",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "shadow"
+      },
+      {
+        "cve_desc": "The iconv program in the GNU C Library (aka glibc or libc6) 2.25 and earlier, when invoked with the -c option, enters an infinite loop when processing invalid multi-byte input sequences, leading to a denial of service.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-10228",
+        "cve_name": "CVE-2016-10228",
+        "cve_severity_nr": 1,
+        "installed_version": "2.26-0ubuntu2.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "glibc"
+      },
+      {
+        "cve_desc": "There is an illegal address access in the fmt_entry function in progs/dump_entry.c in ncurses 6.0 that might lead to a remote denial of service attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13733",
+        "cve_name": "CVE-2017-13733",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "There is an illegal address access in the _nc_safe_strcat function in strings.c in ncurses 6.0 that will lead to a remote denial of service attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13734",
+        "cve_name": "CVE-2017-13734",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "There is an illegal address access in the function postprocess_termcap() in parse_entry.c in ncurses 6.0 that will lead to a remote denial of service attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13731",
+        "cve_name": "CVE-2017-13731",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "In ncurses 6.0, there is a format string vulnerability in the fmt_entry function. A crafted input will lead to a remote arbitrary code execution attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-10685",
+        "cve_name": "CVE-2017-10685",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "There is an illegal address access in the function _nc_read_entry_source() in progs/tic.c in ncurses 6.0 that might lead to a remote denial of service attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13730",
+        "cve_name": "CVE-2017-13730",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "In ncurses 6.0, there is a stack-based buffer overflow in the fmt_entry function. A crafted input will lead to a remote arbitrary code execution attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-10684",
+        "cve_name": "CVE-2017-10684",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "There is an illegal address access in the _nc_save_str function in alloc_entry.c in ncurses 6.0. It will lead to a remote denial of service attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13729",
+        "cve_name": "CVE-2017-13729",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "In ncurses 6.0, there is an attempted 0xffffffffffffffff access in the append_acs function of tinfo/parse_entry.c. It could lead to a remote denial of service attack if the terminfo library code is used to process untrusted terminfo data.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-11112",
+        "cve_name": "CVE-2017-11112",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "There is an infinite loop in the next_char function in comp_scan.c in ncurses 6.0, related to libtic. A crafted input will lead to a remote denial of service attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13728",
+        "cve_name": "CVE-2017-13728",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "In ncurses 6.0, there is a NULL Pointer Dereference in the _nc_parse_entry function of tinfo/parse_entry.c. It could lead to a remote denial of service attack if the terminfo library code is used to process untrusted terminfo data.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-11113",
+        "cve_name": "CVE-2017-11113",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "There is an illegal address access in the function dump_uses() in progs/dump_entry.c in ncurses 6.0 that might lead to a remote denial of service attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13732",
+        "cve_name": "CVE-2017-13732",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "dpkg-source in dpkg 1.3.0 through 1.18.23 is able to use a non-GNU patch program and does not offer a protection mechanism for blank-indented diff hunks, which allows remote attackers to conduct directory traversal attacks via a crafted Debian source package, as demonstrated by use of dpkg-source on NetBSD.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-8283",
+        "cve_name": "CVE-2017-8283",
+        "cve_severity_nr": 1,
+        "installed_version": "1.18.24ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "dpkg"
+      },
+      {
+        "cve_desc": "Stack-based buffer overflow in the pcre32_copy_substring function in pcre_get.c in libpcre1 in PCRE 8.40 allows remote attackers to cause a denial of service (WRITE of size 268) or possibly have unspecified other impact via a crafted file.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-7246",
+        "cve_name": "CVE-2017-7246",
+        "cve_severity_nr": 1,
+        "installed_version": "2:8.39-5ubuntu3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "pcre3"
+      },
+      {
+        "cve_desc": "Stack-based buffer overflow in the pcre32_copy_substring function in pcre_get.c in libpcre1 in PCRE 8.40 allows remote attackers to cause a denial of service (WRITE of size 4) or possibly have unspecified other impact via a crafted file.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-7245",
+        "cve_name": "CVE-2017-7245",
+        "cve_severity_nr": 1,
+        "installed_version": "2:8.39-5ubuntu3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "pcre3"
+      }
+    ],
+    "detail": [
+      {
+        "cve_desc": "The xdr_bytes and xdr_string functions in the GNU C Library (aka glibc or libc6) 2.25 mishandle failures of buffer deserialization, which allows remote attackers to cause a denial of service (virtual memory allocation, or memory consumption if an overcommit setting is not used) via a crafted UDP packet to port 111, a related issue to CVE-2017-8779.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-8804",
+        "cve_name": "CVE-2017-8804",
+        "cve_severity_nr": 3,
+        "installed_version": "2.26-0ubuntu2.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "glibc"
+      },
+      {
+        "cve_desc": "An integer overflow in the implementation of the posix_memalign in memalign functions in the GNU C Library (aka glibc or libc6) 2.26 and earlier could cause these functions to return a pointer to a heap area that is too small, potentially leading to heap corruption.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-6485",
+        "cve_name": "CVE-2018-6485",
+        "cve_severity_nr": 3,
+        "installed_version": "2.26-0ubuntu2.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "glibc"
+      },
+      {
+        "cve_desc": "The malloc implementation in the GNU C Library (aka glibc or libc6), from version 2.24 to 2.26 on powerpc, and only in version 2.26 on i386, did not properly handle malloc calls with arguments close to SIZE_MAX and could return a pointer to a heap region that is smaller than requested, eventually leading to heap corruption.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-6551",
+        "cve_name": "CVE-2018-6551",
+        "cve_severity_nr": 3,
+        "installed_version": "2.26-0ubuntu2.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "glibc"
+      },
+      {
+        "cve_desc": "An issue was discovered in certain Apple products. iOS before 10.3.2 is affected. macOS before 10.12.5 is affected. tvOS before 10.2.1 is affected. watchOS before 3.2.2 is affected. The issue involves the \"SQLite\" component. It allows remote attackers to execute arbitrary code or cause a denial of service (buffer overflow and application crash) via a crafted SQL statement.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-2520",
+        "cve_name": "CVE-2017-2520",
+        "cve_severity_nr": 3,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "An issue was discovered in certain Apple products. iOS before 10.3.2 is affected. macOS before 10.12.5 is affected. tvOS before 10.2.1 is affected. watchOS before 3.2.2 is affected. The issue involves the \"SQLite\" component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted SQL statement.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-2519",
+        "cve_name": "CVE-2017-2519",
+        "cve_severity_nr": 3,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "The dump_callback function in SQLite 3.20.0 allows remote attackers to cause a denial of service (EXC_BAD_ACCESS and application crash) via a crafted file.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13685",
+        "cve_name": "CVE-2017-13685",
+        "cve_severity_nr": 3,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "Pointer disclosure in SQLite",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-7000",
+        "cve_name": "CVE-2017-7000",
+        "cve_severity_nr": 3,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "An issue was discovered in certain Apple products. iOS before 10.3.2 is affected. macOS before 10.12.5 is affected. The issue involves the \"SQLite\" component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted web site.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-6991",
+        "cve_name": "CVE-2017-6991",
+        "cve_severity_nr": 3,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "An issue was discovered in certain Apple products. iOS before 10.3.2 is affected. macOS before 10.12.5 is affected. The issue involves the \"SQLite\" component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted web site.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-6983",
+        "cve_name": "CVE-2017-6983",
+        "cve_severity_nr": 3,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "An issue was discovered in certain Apple products. iOS before 10.3.2 is affected. macOS before 10.12.5 is affected. tvOS before 10.2.1 is affected. watchOS before 3.2.2 is affected. The issue involves the \"SQLite\" component. A use-after-free vulnerability allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via a crafted SQL statement.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-2513",
+        "cve_name": "CVE-2017-2513",
+        "cve_severity_nr": 3,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "sensible-browser in sensible-utils before 0.0.11 does not validate strings before launching the program specified by the BROWSER environment variable, which allows remote attackers to conduct argument-injection attacks via a crafted URL, as demonstrated by a --proxy-pac-file argument.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-17512",
+        "cve_name": "CVE-2017-17512",
+        "cve_severity_nr": 3,
+        "installed_version": "0.0.10",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sensible-utils"
+      },
+      {
+        "cve_desc": "An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the third-party \"PCRE\" product. Versions before 8.40 allow remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13846",
+        "cve_name": "CVE-2017-13846",
+        "cve_severity_nr": 3,
+        "installed_version": "2:8.39-5ubuntu3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "pcre3"
+      },
+      {
+        "cve_desc": "An issue was discovered in the _asn1_decode_simple_ber function in decoding.c in GNU Libtasn1 before 4.13. Unlimited recursion in the BER decoder leads to stack exhaustion and DoS.",
+        "cve_fixed_version": "4.12-2.1ubuntu0.1",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-6003",
+        "cve_name": "CVE-2018-6003",
+        "cve_severity_nr": 3,
+        "installed_version": "4.12-2.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "libtasn1-6"
+      },
+      {
+        "cve_desc": "The pop_fail_stack function in the GNU C Library (aka glibc or libc6) allows context-dependent attackers to cause a denial of service (assertion failure and application crash) via vectors related to extended regular expression processing.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2015-8985",
+        "cve_name": "CVE-2015-8985",
+        "cve_severity_nr": 2,
+        "installed_version": "2.26-0ubuntu2.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "glibc"
+      },
+      {
+        "cve_desc": "res_query in libresolv in glibc before 2.25 allows remote attackers to cause a denial of service (NULL pointer dereference and process crash).",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2015-5180",
+        "cve_name": "CVE-2015-5180",
+        "cve_severity_nr": 2,
+        "installed_version": "2.26-0ubuntu2.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "glibc"
+      },
+      {
+        "cve_desc": "chroot in GNU coreutils, when used with --userspec, allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal's input buffer.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-2781",
+        "cve_name": "CVE-2016-2781",
+        "cve_severity_nr": 2,
+        "installed_version": "8.26-3ubuntu4",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "coreutils"
+      },
+      {
+        "cve_desc": "An issue was discovered in certain Apple products. iOS before 10.3.2 is affected. macOS before 10.12.5 is affected. tvOS before 10.2.1 is affected. watchOS before 3.2.2 is affected. The issue involves the \"SQLite\" component. It allows remote attackers to execute arbitrary code or cause a denial of service (buffer overflow and application crash) via a crafted SQL statement.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-2518",
+        "cve_name": "CVE-2017-2518",
+        "cve_severity_nr": 2,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "runuser in util-linux allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal's input buffer.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-2779",
+        "cve_name": "CVE-2016-2779",
+        "cve_severity_nr": 2,
+        "installed_version": "2.30.1-0ubuntu4",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "util-linux"
+      },
+      {
+        "cve_desc": "The parse_dos_extended function in partitions/dos.c in the libblkid library in util-linux allows physically proximate attackers to cause a denial of service (memory consumption) via a crafted MSDOS partition table with an extended partition boot record at zero offset.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-5011",
+        "cve_name": "CVE-2016-5011",
+        "cve_severity_nr": 2,
+        "installed_version": "2.30.1-0ubuntu4",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "util-linux"
+      },
+      {
+        "cve_desc": "Use-after-free vulnerability in bzip2recover in bzip2 1.0.6 allows remote attackers to cause a denial of service (crash) via a crafted bzip2 file, related to block ends set to before the start of the block.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-3189",
+        "cve_name": "CVE-2016-3189",
+        "cve_severity_nr": 2,
+        "installed_version": "1.0.6-8.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "bzip2"
+      },
+      {
+        "cve_desc": "TOCTOU race conditions by copying and removing directory trees",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2013-4235",
+        "cve_name": "CVE-2013-4235",
+        "cve_severity_nr": 2,
+        "installed_version": "1:4.2-3.2ubuntu4",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "shadow"
+      },
+      {
+        "cve_desc": "The iconv program in the GNU C Library (aka glibc or libc6) 2.25 and earlier, when invoked with the -c option, enters an infinite loop when processing invalid multi-byte input sequences, leading to a denial of service.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-10228",
+        "cve_name": "CVE-2016-10228",
+        "cve_severity_nr": 1,
+        "installed_version": "2.26-0ubuntu2.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "glibc"
+      },
+      {
+        "cve_desc": "There is an illegal address access in the fmt_entry function in progs/dump_entry.c in ncurses 6.0 that might lead to a remote denial of service attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13733",
+        "cve_name": "CVE-2017-13733",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "There is an illegal address access in the _nc_safe_strcat function in strings.c in ncurses 6.0 that will lead to a remote denial of service attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13734",
+        "cve_name": "CVE-2017-13734",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "There is an illegal address access in the function postprocess_termcap() in parse_entry.c in ncurses 6.0 that will lead to a remote denial of service attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13731",
+        "cve_name": "CVE-2017-13731",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "In ncurses 6.0, there is a format string vulnerability in the fmt_entry function. A crafted input will lead to a remote arbitrary code execution attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-10685",
+        "cve_name": "CVE-2017-10685",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "There is an illegal address access in the function _nc_read_entry_source() in progs/tic.c in ncurses 6.0 that might lead to a remote denial of service attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13730",
+        "cve_name": "CVE-2017-13730",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "In ncurses 6.0, there is a stack-based buffer overflow in the fmt_entry function. A crafted input will lead to a remote arbitrary code execution attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-10684",
+        "cve_name": "CVE-2017-10684",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "There is an illegal address access in the _nc_save_str function in alloc_entry.c in ncurses 6.0. It will lead to a remote denial of service attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13729",
+        "cve_name": "CVE-2017-13729",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "In ncurses 6.0, there is an attempted 0xffffffffffffffff access in the append_acs function of tinfo/parse_entry.c. It could lead to a remote denial of service attack if the terminfo library code is used to process untrusted terminfo data.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-11112",
+        "cve_name": "CVE-2017-11112",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "There is an infinite loop in the next_char function in comp_scan.c in ncurses 6.0, related to libtic. A crafted input will lead to a remote denial of service attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13728",
+        "cve_name": "CVE-2017-13728",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "In ncurses 6.0, there is a NULL Pointer Dereference in the _nc_parse_entry function of tinfo/parse_entry.c. It could lead to a remote denial of service attack if the terminfo library code is used to process untrusted terminfo data.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-11113",
+        "cve_name": "CVE-2017-11113",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "There is an illegal address access in the function dump_uses() in progs/dump_entry.c in ncurses 6.0 that might lead to a remote denial of service attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13732",
+        "cve_name": "CVE-2017-13732",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "dpkg-source in dpkg 1.3.0 through 1.18.23 is able to use a non-GNU patch program and does not offer a protection mechanism for blank-indented diff hunks, which allows remote attackers to conduct directory traversal attacks via a crafted Debian source package, as demonstrated by use of dpkg-source on NetBSD.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-8283",
+        "cve_name": "CVE-2017-8283",
+        "cve_severity_nr": 1,
+        "installed_version": "1.18.24ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "dpkg"
+      },
+      {
+        "cve_desc": "Stack-based buffer overflow in the pcre32_copy_substring function in pcre_get.c in libpcre1 in PCRE 8.40 allows remote attackers to cause a denial of service (WRITE of size 268) or possibly have unspecified other impact via a crafted file.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-7246",
+        "cve_name": "CVE-2017-7246",
+        "cve_severity_nr": 1,
+        "installed_version": "2:8.39-5ubuntu3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "pcre3"
+      },
+      {
+        "cve_desc": "Stack-based buffer overflow in the pcre32_copy_substring function in pcre_get.c in libpcre1 in PCRE 8.40 allows remote attackers to cause a denial of service (WRITE of size 4) or possibly have unspecified other impact via a crafted file.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-7245",
+        "cve_name": "CVE-2017-7245",
+        "cve_severity_nr": 1,
+        "installed_version": "2:8.39-5ubuntu3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "pcre3"
+      }
+    ],
+    "_id": "5a856e41570df111b95425de",
+    "image": "jenarvaezg/image",
+    "status": "finished"
+  },
+  "sha256:77b46b1149554c6c0c9920821434ef5fe7aeb53f9b7808748cd69694450cfbd7": {
+    "my_vulns": [
+      {
+        "cve_desc": "An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the third-party \"PCRE\" product. Versions before 8.40 allow remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13846",
+        "cve_name": "CVE-2017-13846",
+        "cve_severity_nr": 3,
+        "installed_version": "2:8.39-5ubuntu3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "pcre3"
+      },
+      {
+        "cve_desc": "sensible-browser in sensible-utils before 0.0.11 does not validate strings before launching the program specified by the BROWSER environment variable, which allows remote attackers to conduct argument-injection attacks via a crafted URL, as demonstrated by a --proxy-pac-file argument.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-17512",
+        "cve_name": "CVE-2017-17512",
+        "cve_severity_nr": 3,
+        "installed_version": "0.0.10",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sensible-utils"
+      },
+      {
+        "cve_desc": "An issue was discovered in the _asn1_decode_simple_ber function in decoding.c in GNU Libtasn1 before 4.13. Unlimited recursion in the BER decoder leads to stack exhaustion and DoS.",
+        "cve_fixed_version": "4.12-2.1ubuntu0.1",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-6003",
+        "cve_name": "CVE-2018-6003",
+        "cve_severity_nr": 3,
+        "installed_version": "4.12-2.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "libtasn1-6"
+      },
+      {
+        "cve_desc": "An issue was discovered in certain Apple products. iOS before 10.3.2 is affected. macOS before 10.12.5 is affected. tvOS before 10.2.1 is affected. watchOS before 3.2.2 is affected. The issue involves the \"SQLite\" component. It allows remote attackers to execute arbitrary code or cause a denial of service (buffer overflow and application crash) via a crafted SQL statement.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-2520",
+        "cve_name": "CVE-2017-2520",
+        "cve_severity_nr": 3,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "An issue was discovered in certain Apple products. iOS before 10.3.2 is affected. macOS before 10.12.5 is affected. tvOS before 10.2.1 is affected. watchOS before 3.2.2 is affected. The issue involves the \"SQLite\" component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted SQL statement.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-2519",
+        "cve_name": "CVE-2017-2519",
+        "cve_severity_nr": 3,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "The dump_callback function in SQLite 3.20.0 allows remote attackers to cause a denial of service (EXC_BAD_ACCESS and application crash) via a crafted file.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13685",
+        "cve_name": "CVE-2017-13685",
+        "cve_severity_nr": 3,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "Pointer disclosure in SQLite",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-7000",
+        "cve_name": "CVE-2017-7000",
+        "cve_severity_nr": 3,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "An issue was discovered in certain Apple products. iOS before 10.3.2 is affected. macOS before 10.12.5 is affected. The issue involves the \"SQLite\" component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted web site.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-6991",
+        "cve_name": "CVE-2017-6991",
+        "cve_severity_nr": 3,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "An issue was discovered in certain Apple products. iOS before 10.3.2 is affected. macOS before 10.12.5 is affected. The issue involves the \"SQLite\" component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted web site.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-6983",
+        "cve_name": "CVE-2017-6983",
+        "cve_severity_nr": 3,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "An issue was discovered in certain Apple products. iOS before 10.3.2 is affected. macOS before 10.12.5 is affected. tvOS before 10.2.1 is affected. watchOS before 3.2.2 is affected. The issue involves the \"SQLite\" component. A use-after-free vulnerability allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via a crafted SQL statement.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-2513",
+        "cve_name": "CVE-2017-2513",
+        "cve_severity_nr": 3,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "The xdr_bytes and xdr_string functions in the GNU C Library (aka glibc or libc6) 2.25 mishandle failures of buffer deserialization, which allows remote attackers to cause a denial of service (virtual memory allocation, or memory consumption if an overcommit setting is not used) via a crafted UDP packet to port 111, a related issue to CVE-2017-8779.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-8804",
+        "cve_name": "CVE-2017-8804",
+        "cve_severity_nr": 3,
+        "installed_version": "2.26-0ubuntu2.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "glibc"
+      },
+      {
+        "cve_desc": "An integer overflow in the implementation of the posix_memalign in memalign functions in the GNU C Library (aka glibc or libc6) 2.26 and earlier could cause these functions to return a pointer to a heap area that is too small, potentially leading to heap corruption.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-6485",
+        "cve_name": "CVE-2018-6485",
+        "cve_severity_nr": 3,
+        "installed_version": "2.26-0ubuntu2.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "glibc"
+      },
+      {
+        "cve_desc": "The malloc implementation in the GNU C Library (aka glibc or libc6), from version 2.24 to 2.26 on powerpc, and only in version 2.26 on i386, did not properly handle malloc calls with arguments close to SIZE_MAX and could return a pointer to a heap region that is smaller than requested, eventually leading to heap corruption.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-6551",
+        "cve_name": "CVE-2018-6551",
+        "cve_severity_nr": 3,
+        "installed_version": "2.26-0ubuntu2.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "glibc"
+      },
+      {
+        "cve_desc": "runuser in util-linux allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal's input buffer.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-2779",
+        "cve_name": "CVE-2016-2779",
+        "cve_severity_nr": 2,
+        "installed_version": "2.30.1-0ubuntu4",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "util-linux"
+      },
+      {
+        "cve_desc": "The parse_dos_extended function in partitions/dos.c in the libblkid library in util-linux allows physically proximate attackers to cause a denial of service (memory consumption) via a crafted MSDOS partition table with an extended partition boot record at zero offset.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-5011",
+        "cve_name": "CVE-2016-5011",
+        "cve_severity_nr": 2,
+        "installed_version": "2.30.1-0ubuntu4",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "util-linux"
+      },
+      {
+        "cve_desc": "TOCTOU race conditions by copying and removing directory trees",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2013-4235",
+        "cve_name": "CVE-2013-4235",
+        "cve_severity_nr": 2,
+        "installed_version": "1:4.2-3.2ubuntu4",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "shadow"
+      },
+      {
+        "cve_desc": "chroot in GNU coreutils, when used with --userspec, allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal's input buffer.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-2781",
+        "cve_name": "CVE-2016-2781",
+        "cve_severity_nr": 2,
+        "installed_version": "8.26-3ubuntu4",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "coreutils"
+      },
+      {
+        "cve_desc": "An issue was discovered in certain Apple products. iOS before 10.3.2 is affected. macOS before 10.12.5 is affected. tvOS before 10.2.1 is affected. watchOS before 3.2.2 is affected. The issue involves the \"SQLite\" component. It allows remote attackers to execute arbitrary code or cause a denial of service (buffer overflow and application crash) via a crafted SQL statement.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-2518",
+        "cve_name": "CVE-2017-2518",
+        "cve_severity_nr": 2,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "The pop_fail_stack function in the GNU C Library (aka glibc or libc6) allows context-dependent attackers to cause a denial of service (assertion failure and application crash) via vectors related to extended regular expression processing.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2015-8985",
+        "cve_name": "CVE-2015-8985",
+        "cve_severity_nr": 2,
+        "installed_version": "2.26-0ubuntu2.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "glibc"
+      },
+      {
+        "cve_desc": "res_query in libresolv in glibc before 2.25 allows remote attackers to cause a denial of service (NULL pointer dereference and process crash).",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2015-5180",
+        "cve_name": "CVE-2015-5180",
+        "cve_severity_nr": 2,
+        "installed_version": "2.26-0ubuntu2.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "glibc"
+      },
+      {
+        "cve_desc": "Use-after-free vulnerability in bzip2recover in bzip2 1.0.6 allows remote attackers to cause a denial of service (crash) via a crafted bzip2 file, related to block ends set to before the start of the block.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-3189",
+        "cve_name": "CVE-2016-3189",
+        "cve_severity_nr": 2,
+        "installed_version": "1.0.6-8.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "bzip2"
+      },
+      {
+        "cve_desc": "Stack-based buffer overflow in the pcre32_copy_substring function in pcre_get.c in libpcre1 in PCRE 8.40 allows remote attackers to cause a denial of service (WRITE of size 268) or possibly have unspecified other impact via a crafted file.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-7246",
+        "cve_name": "CVE-2017-7246",
+        "cve_severity_nr": 1,
+        "installed_version": "2:8.39-5ubuntu3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "pcre3"
+      },
+      {
+        "cve_desc": "Stack-based buffer overflow in the pcre32_copy_substring function in pcre_get.c in libpcre1 in PCRE 8.40 allows remote attackers to cause a denial of service (WRITE of size 4) or possibly have unspecified other impact via a crafted file.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-7245",
+        "cve_name": "CVE-2017-7245",
+        "cve_severity_nr": 1,
+        "installed_version": "2:8.39-5ubuntu3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "pcre3"
+      },
+      {
+        "cve_desc": "dpkg-source in dpkg 1.3.0 through 1.18.23 is able to use a non-GNU patch program and does not offer a protection mechanism for blank-indented diff hunks, which allows remote attackers to conduct directory traversal attacks via a crafted Debian source package, as demonstrated by use of dpkg-source on NetBSD.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-8283",
+        "cve_name": "CVE-2017-8283",
+        "cve_severity_nr": 1,
+        "installed_version": "1.18.24ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "dpkg"
+      },
+      {
+        "cve_desc": "The iconv program in the GNU C Library (aka glibc or libc6) 2.25 and earlier, when invoked with the -c option, enters an infinite loop when processing invalid multi-byte input sequences, leading to a denial of service.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-10228",
+        "cve_name": "CVE-2016-10228",
+        "cve_severity_nr": 1,
+        "installed_version": "2.26-0ubuntu2.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "glibc"
+      },
+      {
+        "cve_desc": "There is an illegal address access in the fmt_entry function in progs/dump_entry.c in ncurses 6.0 that might lead to a remote denial of service attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13733",
+        "cve_name": "CVE-2017-13733",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "There is an illegal address access in the _nc_safe_strcat function in strings.c in ncurses 6.0 that will lead to a remote denial of service attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13734",
+        "cve_name": "CVE-2017-13734",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "There is an illegal address access in the function postprocess_termcap() in parse_entry.c in ncurses 6.0 that will lead to a remote denial of service attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13731",
+        "cve_name": "CVE-2017-13731",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "In ncurses 6.0, there is a format string vulnerability in the fmt_entry function. A crafted input will lead to a remote arbitrary code execution attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-10685",
+        "cve_name": "CVE-2017-10685",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "There is an illegal address access in the function _nc_read_entry_source() in progs/tic.c in ncurses 6.0 that might lead to a remote denial of service attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13730",
+        "cve_name": "CVE-2017-13730",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "In ncurses 6.0, there is a stack-based buffer overflow in the fmt_entry function. A crafted input will lead to a remote arbitrary code execution attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-10684",
+        "cve_name": "CVE-2017-10684",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "There is an illegal address access in the _nc_save_str function in alloc_entry.c in ncurses 6.0. It will lead to a remote denial of service attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13729",
+        "cve_name": "CVE-2017-13729",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "In ncurses 6.0, there is an attempted 0xffffffffffffffff access in the append_acs function of tinfo/parse_entry.c. It could lead to a remote denial of service attack if the terminfo library code is used to process untrusted terminfo data.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-11112",
+        "cve_name": "CVE-2017-11112",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "There is an infinite loop in the next_char function in comp_scan.c in ncurses 6.0, related to libtic. A crafted input will lead to a remote denial of service attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13728",
+        "cve_name": "CVE-2017-13728",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "In ncurses 6.0, there is a NULL Pointer Dereference in the _nc_parse_entry function of tinfo/parse_entry.c. It could lead to a remote denial of service attack if the terminfo library code is used to process untrusted terminfo data.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-11113",
+        "cve_name": "CVE-2017-11113",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "There is an illegal address access in the function dump_uses() in progs/dump_entry.c in ncurses 6.0 that might lead to a remote denial of service attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13732",
+        "cve_name": "CVE-2017-13732",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      }
+    ],
+    "detail": [
+      {
+        "cve_desc": "An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the third-party \"PCRE\" product. Versions before 8.40 allow remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13846",
+        "cve_name": "CVE-2017-13846",
+        "cve_severity_nr": 3,
+        "installed_version": "2:8.39-5ubuntu3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "pcre3"
+      },
+      {
+        "cve_desc": "sensible-browser in sensible-utils before 0.0.11 does not validate strings before launching the program specified by the BROWSER environment variable, which allows remote attackers to conduct argument-injection attacks via a crafted URL, as demonstrated by a --proxy-pac-file argument.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-17512",
+        "cve_name": "CVE-2017-17512",
+        "cve_severity_nr": 3,
+        "installed_version": "0.0.10",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sensible-utils"
+      },
+      {
+        "cve_desc": "An issue was discovered in the _asn1_decode_simple_ber function in decoding.c in GNU Libtasn1 before 4.13. Unlimited recursion in the BER decoder leads to stack exhaustion and DoS.",
+        "cve_fixed_version": "4.12-2.1ubuntu0.1",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-6003",
+        "cve_name": "CVE-2018-6003",
+        "cve_severity_nr": 3,
+        "installed_version": "4.12-2.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "libtasn1-6"
+      },
+      {
+        "cve_desc": "An issue was discovered in certain Apple products. iOS before 10.3.2 is affected. macOS before 10.12.5 is affected. tvOS before 10.2.1 is affected. watchOS before 3.2.2 is affected. The issue involves the \"SQLite\" component. It allows remote attackers to execute arbitrary code or cause a denial of service (buffer overflow and application crash) via a crafted SQL statement.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-2520",
+        "cve_name": "CVE-2017-2520",
+        "cve_severity_nr": 3,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "An issue was discovered in certain Apple products. iOS before 10.3.2 is affected. macOS before 10.12.5 is affected. tvOS before 10.2.1 is affected. watchOS before 3.2.2 is affected. The issue involves the \"SQLite\" component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted SQL statement.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-2519",
+        "cve_name": "CVE-2017-2519",
+        "cve_severity_nr": 3,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "The dump_callback function in SQLite 3.20.0 allows remote attackers to cause a denial of service (EXC_BAD_ACCESS and application crash) via a crafted file.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13685",
+        "cve_name": "CVE-2017-13685",
+        "cve_severity_nr": 3,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "Pointer disclosure in SQLite",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-7000",
+        "cve_name": "CVE-2017-7000",
+        "cve_severity_nr": 3,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "An issue was discovered in certain Apple products. iOS before 10.3.2 is affected. macOS before 10.12.5 is affected. The issue involves the \"SQLite\" component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted web site.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-6991",
+        "cve_name": "CVE-2017-6991",
+        "cve_severity_nr": 3,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "An issue was discovered in certain Apple products. iOS before 10.3.2 is affected. macOS before 10.12.5 is affected. The issue involves the \"SQLite\" component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted web site.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-6983",
+        "cve_name": "CVE-2017-6983",
+        "cve_severity_nr": 3,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "An issue was discovered in certain Apple products. iOS before 10.3.2 is affected. macOS before 10.12.5 is affected. tvOS before 10.2.1 is affected. watchOS before 3.2.2 is affected. The issue involves the \"SQLite\" component. A use-after-free vulnerability allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via a crafted SQL statement.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-2513",
+        "cve_name": "CVE-2017-2513",
+        "cve_severity_nr": 3,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "The xdr_bytes and xdr_string functions in the GNU C Library (aka glibc or libc6) 2.25 mishandle failures of buffer deserialization, which allows remote attackers to cause a denial of service (virtual memory allocation, or memory consumption if an overcommit setting is not used) via a crafted UDP packet to port 111, a related issue to CVE-2017-8779.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-8804",
+        "cve_name": "CVE-2017-8804",
+        "cve_severity_nr": 3,
+        "installed_version": "2.26-0ubuntu2.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "glibc"
+      },
+      {
+        "cve_desc": "An integer overflow in the implementation of the posix_memalign in memalign functions in the GNU C Library (aka glibc or libc6) 2.26 and earlier could cause these functions to return a pointer to a heap area that is too small, potentially leading to heap corruption.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-6485",
+        "cve_name": "CVE-2018-6485",
+        "cve_severity_nr": 3,
+        "installed_version": "2.26-0ubuntu2.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "glibc"
+      },
+      {
+        "cve_desc": "The malloc implementation in the GNU C Library (aka glibc or libc6), from version 2.24 to 2.26 on powerpc, and only in version 2.26 on i386, did not properly handle malloc calls with arguments close to SIZE_MAX and could return a pointer to a heap region that is smaller than requested, eventually leading to heap corruption.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-6551",
+        "cve_name": "CVE-2018-6551",
+        "cve_severity_nr": 3,
+        "installed_version": "2.26-0ubuntu2.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "glibc"
+      },
+      {
+        "cve_desc": "runuser in util-linux allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal's input buffer.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-2779",
+        "cve_name": "CVE-2016-2779",
+        "cve_severity_nr": 2,
+        "installed_version": "2.30.1-0ubuntu4",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "util-linux"
+      },
+      {
+        "cve_desc": "The parse_dos_extended function in partitions/dos.c in the libblkid library in util-linux allows physically proximate attackers to cause a denial of service (memory consumption) via a crafted MSDOS partition table with an extended partition boot record at zero offset.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-5011",
+        "cve_name": "CVE-2016-5011",
+        "cve_severity_nr": 2,
+        "installed_version": "2.30.1-0ubuntu4",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "util-linux"
+      },
+      {
+        "cve_desc": "TOCTOU race conditions by copying and removing directory trees",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2013-4235",
+        "cve_name": "CVE-2013-4235",
+        "cve_severity_nr": 2,
+        "installed_version": "1:4.2-3.2ubuntu4",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "shadow"
+      },
+      {
+        "cve_desc": "chroot in GNU coreutils, when used with --userspec, allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal's input buffer.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-2781",
+        "cve_name": "CVE-2016-2781",
+        "cve_severity_nr": 2,
+        "installed_version": "8.26-3ubuntu4",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "coreutils"
+      },
+      {
+        "cve_desc": "An issue was discovered in certain Apple products. iOS before 10.3.2 is affected. macOS before 10.12.5 is affected. tvOS before 10.2.1 is affected. watchOS before 3.2.2 is affected. The issue involves the \"SQLite\" component. It allows remote attackers to execute arbitrary code or cause a denial of service (buffer overflow and application crash) via a crafted SQL statement.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-2518",
+        "cve_name": "CVE-2017-2518",
+        "cve_severity_nr": 2,
+        "installed_version": "3.19.3-3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "sqlite3"
+      },
+      {
+        "cve_desc": "The pop_fail_stack function in the GNU C Library (aka glibc or libc6) allows context-dependent attackers to cause a denial of service (assertion failure and application crash) via vectors related to extended regular expression processing.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2015-8985",
+        "cve_name": "CVE-2015-8985",
+        "cve_severity_nr": 2,
+        "installed_version": "2.26-0ubuntu2.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "glibc"
+      },
+      {
+        "cve_desc": "res_query in libresolv in glibc before 2.25 allows remote attackers to cause a denial of service (NULL pointer dereference and process crash).",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2015-5180",
+        "cve_name": "CVE-2015-5180",
+        "cve_severity_nr": 2,
+        "installed_version": "2.26-0ubuntu2.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "glibc"
+      },
+      {
+        "cve_desc": "Use-after-free vulnerability in bzip2recover in bzip2 1.0.6 allows remote attackers to cause a denial of service (crash) via a crafted bzip2 file, related to block ends set to before the start of the block.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-3189",
+        "cve_name": "CVE-2016-3189",
+        "cve_severity_nr": 2,
+        "installed_version": "1.0.6-8.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "bzip2"
+      },
+      {
+        "cve_desc": "Stack-based buffer overflow in the pcre32_copy_substring function in pcre_get.c in libpcre1 in PCRE 8.40 allows remote attackers to cause a denial of service (WRITE of size 268) or possibly have unspecified other impact via a crafted file.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-7246",
+        "cve_name": "CVE-2017-7246",
+        "cve_severity_nr": 1,
+        "installed_version": "2:8.39-5ubuntu3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "pcre3"
+      },
+      {
+        "cve_desc": "Stack-based buffer overflow in the pcre32_copy_substring function in pcre_get.c in libpcre1 in PCRE 8.40 allows remote attackers to cause a denial of service (WRITE of size 4) or possibly have unspecified other impact via a crafted file.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-7245",
+        "cve_name": "CVE-2017-7245",
+        "cve_severity_nr": 1,
+        "installed_version": "2:8.39-5ubuntu3",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "pcre3"
+      },
+      {
+        "cve_desc": "dpkg-source in dpkg 1.3.0 through 1.18.23 is able to use a non-GNU patch program and does not offer a protection mechanism for blank-indented diff hunks, which allows remote attackers to conduct directory traversal attacks via a crafted Debian source package, as demonstrated by use of dpkg-source on NetBSD.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-8283",
+        "cve_name": "CVE-2017-8283",
+        "cve_severity_nr": 1,
+        "installed_version": "1.18.24ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "dpkg"
+      },
+      {
+        "cve_desc": "The iconv program in the GNU C Library (aka glibc or libc6) 2.25 and earlier, when invoked with the -c option, enters an infinite loop when processing invalid multi-byte input sequences, leading to a denial of service.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-10228",
+        "cve_name": "CVE-2016-10228",
+        "cve_severity_nr": 1,
+        "installed_version": "2.26-0ubuntu2.1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "glibc"
+      },
+      {
+        "cve_desc": "There is an illegal address access in the fmt_entry function in progs/dump_entry.c in ncurses 6.0 that might lead to a remote denial of service attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13733",
+        "cve_name": "CVE-2017-13733",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "There is an illegal address access in the _nc_safe_strcat function in strings.c in ncurses 6.0 that will lead to a remote denial of service attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13734",
+        "cve_name": "CVE-2017-13734",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "There is an illegal address access in the function postprocess_termcap() in parse_entry.c in ncurses 6.0 that will lead to a remote denial of service attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13731",
+        "cve_name": "CVE-2017-13731",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "In ncurses 6.0, there is a format string vulnerability in the fmt_entry function. A crafted input will lead to a remote arbitrary code execution attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-10685",
+        "cve_name": "CVE-2017-10685",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "There is an illegal address access in the function _nc_read_entry_source() in progs/tic.c in ncurses 6.0 that might lead to a remote denial of service attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13730",
+        "cve_name": "CVE-2017-13730",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "In ncurses 6.0, there is a stack-based buffer overflow in the fmt_entry function. A crafted input will lead to a remote arbitrary code execution attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-10684",
+        "cve_name": "CVE-2017-10684",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "There is an illegal address access in the _nc_save_str function in alloc_entry.c in ncurses 6.0. It will lead to a remote denial of service attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13729",
+        "cve_name": "CVE-2017-13729",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "In ncurses 6.0, there is an attempted 0xffffffffffffffff access in the append_acs function of tinfo/parse_entry.c. It could lead to a remote denial of service attack if the terminfo library code is used to process untrusted terminfo data.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-11112",
+        "cve_name": "CVE-2017-11112",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "There is an infinite loop in the next_char function in comp_scan.c in ncurses 6.0, related to libtic. A crafted input will lead to a remote denial of service attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13728",
+        "cve_name": "CVE-2017-13728",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "In ncurses 6.0, there is a NULL Pointer Dereference in the _nc_parse_entry function of tinfo/parse_entry.c. It could lead to a remote denial of service attack if the terminfo library code is used to process untrusted terminfo data.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-11113",
+        "cve_name": "CVE-2017-11113",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      },
+      {
+        "cve_desc": "There is an illegal address access in the function dump_uses() in progs/dump_entry.c in ncurses 6.0 that might lead to a remote denial of service attack.",
+        "cve_fixed_version": "",
+        "cve_link": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13732",
+        "cve_name": "CVE-2017-13732",
+        "cve_severity_nr": 1,
+        "installed_version": "6.0+20160625-1ubuntu1",
+        "namespace_name": "ubuntu:17.10",
+        "package_name": "ncurses"
+      }
+    ],
+    "_id": "5a856b10570df111b95425dd",
+    "image": "ubuntu:17.10",
+    "status": "finished"
+  }
+}
